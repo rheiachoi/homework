@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+
+    <style>
+        .wrap {
+            width: 600px;
+            margin: 15px auto;
+        }
+
+        .img {
+            width: 700px;
+            margin-bottom: 15px;
+        }
+
+        *{
+            font-family: font-family: 'Gamja Flower', cursive;
+        }
+    </style>
+
+    <script>
+        function order() {
+            alert('주문이 완료되었습니다');
+        }
+    </script>
+    <title>스파르타코딩클럽_나홀로쇼핑</title>
+</head>
+<body>
+<div class="wrap">
+
+    <img class="img" src="https://image.bugsm.co.kr/mlounge/productimage/261/detailimage/5601.jpg"/>
+
+    <h2>스타벅스 아아 Tall</h2> <h7>가격 4,100원/개</h7>
+    <p>
+        <br>
+        진한 농도의 에스프레소와 물을 혼합한 후 그 위에 얼음을 넣은 음료입니다.<br>
+        우리 모두 시원한 여름을 보내요.<br>
+        HAPPY SUMMER TIME WITH STARBUCKS<br>
+    </p>
+
+    <h2> 주문하기 </h2>
+    <form>
+        <div class="form-group row">
+        <label for="name" class="col-sm-2 col-form-label">성함 :</label>
+        <div class="col-sm-10">
+        <input type="number" class="form-control" id="name">
+        </div>
+        </div>
+        <div class="form-group row">
+            <label for="Select" class="col-sm-2 col-form-label">수량 :</label>
+            <div class="col-sm-10">
+            <select class="form-control" id="Select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-group row">
+        <label for="adress" class="col-sm-2 col-form-label">주소 :</label>
+        <div class="col-sm-10">
+        <input type="number" class="form-control" id="adress">
+        </div>
+        </div>
+        <div class="form-group row">
+        <label for="inputPhonenumer" class="col-sm-2 col-form-label">전화번호 :</label>
+        <div class="col-sm-10">
+        <input type="number" class="form-control" id="inputPhonenumer">
+        </div>
+        </div>
+    </form>
+    <button onclick="order()" type="button" class="btn btn-primary btn-lg">주문하기</button>
+</div>
+
+</body>
+</html>
